@@ -1,0 +1,29 @@
+.bounce {
+    animation: bounce 1s infinite;
+}
+
+
+
+@keyframes bounce{
+    0% {transform:translateY(0);}
+    40% {transform:translateY(-30px);}
+    60% {transform:translateY(-15px);}
+}
+
+
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(219, 186, 109);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    div {
+        background-color: red;
+        width: 120px;
+        height: 120px;
+        border-radius: 70px;
+    }
+}
+
