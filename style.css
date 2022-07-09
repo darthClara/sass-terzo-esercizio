@@ -5,8 +5,8 @@
 
 @-webkit-keyframes bounce {
   0% {
-    -webkit-animation-duration: 1s;
-            animation-duration: 1s;
+    -webkit-animation-duration: 0.5s;
+            animation-duration: 0.5s;
     transform: translateY(0);
     height: 102px;
   }
@@ -35,8 +35,8 @@
     height: 118px;
   }
   100% {
-    -webkit-animation-duration: 1s;
-            animation-duration: 1s;
+    -webkit-animation-duration: 0.5s;
+            animation-duration: 0.5s;
     transform: translateY(-10px);
     height: 115px;
   }
@@ -44,8 +44,8 @@
 
 @keyframes bounce {
   0% {
-    -webkit-animation-duration: 1s;
-            animation-duration: 1s;
+    -webkit-animation-duration: 0.5s;
+            animation-duration: 0.5s;
     transform: translateY(0);
     height: 102px;
   }
@@ -74,8 +74,8 @@
     height: 118px;
   }
   100% {
-    -webkit-animation-duration: 1s;
-            animation-duration: 1s;
+    -webkit-animation-duration: 0.5s;
+            animation-duration: 0.5s;
     transform: translateY(-10px);
     height: 115px;
   }
