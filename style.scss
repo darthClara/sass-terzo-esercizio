@@ -2,12 +2,19 @@
     animation: bounce 1s infinite;
 }
 
-
+@mixin bounce($durata: null, $distanza: null, $altezza){
+    animation-duration: $durata;
+    transform: translateY($distanza);
+    height: $altezza;
+}
 
 @keyframes bounce{
-    0% {transform:translateY(0);}
-    40% {transform:translateY(-30px);}
-    60% {transform:translateY(-15px);}
+    0% {@include bounce(1s, 0, 102px)}
+    20% {@include bounce(1s, -10px, 115px)}
+    40% {@include bounce(1s, -20px, 118px)}
+    60% {@include bounce(1s, -30px, 120px)}
+    80% {@include bounce(1s, -20px, 118px)}
+    100% {@include bounce(1s, -10px, 115px)}
 }
 
 
